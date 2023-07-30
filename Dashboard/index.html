@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/e40c19f515.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
-    <title>Side Navigation Bar</title>
+    <title>Materialize</title>
 </head>
 <body>
+<section id="menu">
 <div class="scroll-bar">
 <div class="wrapper">
     <div class="sidebar">
-        <h2><img src="logo.jpg"><b>Materialize</b><i class="fa-solid fa-angles-left"></i></h2>
+        <h2><pre><img src="logo.png"><b>Materialize</b>  <i class="fa-solid fa-angles-left"></i></pre></h2>
         <ul>
             <div class="item">
             <li><a class="sub-btn"><i class="fa-solid fa-house"></i>Dashboard
@@ -157,6 +158,8 @@
                 <a href="" class="sub-item">Apex</a>
                 <a href="" class="sub-item">Recharts</a>
                 <a href="" class="sub-item">ChartJS</a>
+            </div></li>
+            </div>
             <li><a href="#"><i class="fa-solid fa-shield"></i>Access Control</a></li>
             <div class="item">
             <li><a class="sub-btn">...Others
@@ -166,10 +169,50 @@
                 <a href="" class="sub-item">Disabled Menu</a>
                 <a href="" class="sub-item">Raise Support</a>
                 <a href="" class="sub-item">Documentation</a>
-        </ul>
+                </div></li>
+            </div>
+            </ul>
+       </div>
+       </div>
+    </div> 
+</section>
+<section id="interface">
+    <div class="navigation">
+        <div class="n1">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" placeholder="Search (Ctrl+l)">
+        </div>
+    <div class="profile">
+        <div class="item">
+            <a class="sub-btn"><i class="fa-solid fa-eye"></i></a>
+            <div class="sub-menu">
+                <a href="" class="sub-item">English</a>
+                <a href="" class="sub-item">French</a>
+                <a href="" class="sub-item">Arabic</a>
+            </div>
+        </div>
+        <i class="fa-regular fa-moon"></i>
+        <i class="fa-brands fa-microsoft"></i>
+        <i class="fa-regular fa-bell"></i>
+        <div class="item">
+        <a class="sub-btn"><img src="profile.png" alt=""></a>
+        <div class="sub-menu">
+            <a href="" class="sub-item"><img src="profile.png" alt="">John Doe</a>
+            </hr>
+            <a href="" class="sub-item"><i class="fa-regular fa-user"></i>Profile</a>
+            <a href="" class="sub-item"><i class="fa-regular fa-envelope"></i>Inbox</a>
+            <a href="" class="sub-item"><i class="fa-regular fa-message"></i>Chat</a>
+            </hr>
+            <a href="" class="sub-item"><i class="fa-solid fa-gears"></i>Settings</a>
+            <a href="" class="sub-item"><i class="fa-solid fa-dollar-sign"></i>Pricing</a>
+            <a href="" class="sub-item"><i class="fa-regular fa-circle-question"></i>FAQ</a>
+            </hr>
+            <a href="" class="sub-item"><i class="fa-solid fa-arrow-right"></i>LogOut</a>
+        </div>
+        </div>
     </div>
-</div>
-</div> 
+    </div>
+</section>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
 <script>
@@ -180,5 +223,6 @@ $(document).ready(function(){
     });
 })
 </script>
+
 </body>
 </html>
