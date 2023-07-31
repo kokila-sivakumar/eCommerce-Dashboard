@@ -134,3 +134,35 @@ div h2 img{
     object-fit: cover;
     border-radius: 50%;
 }
+#interface .total .sales{
+    display: grid;
+    grid-template-columns: repeat(auto, minmax(50px));
+    margin-top: 20px;
+    background-color: #594ef7;
+    width: 350px;
+    border-radius: 10px;
+    padding-left: 10px;
+    margin-left: 20px;
+    border-color: black;
+}
+#interface .total .sales td{
+    padding: 20px;
+    background-color: #bdb8d7;
+}
+#interface .total .rating{
+    display: grid;
+    margin-top: 20px;
+    background-color: #bdb8d7;
+    width: 200px;
+    height: 200px;
+    padding-left: 10px;
+    margin-left: 20px;
+    border-color: black;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+#interface .total .rating img{
+    width: 50px;
+    height: 70px;
+    padding-left: 20px;
+}
