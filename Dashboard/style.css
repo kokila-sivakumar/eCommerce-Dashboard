@@ -53,7 +53,7 @@ body{
     padding: 5px;
 }
 .scroll-bar{
-    height: 1000px;
+    height: 1500px;
     width: 280px;
     border: 1px solid grey;
     font-family: 'GestaRegular', Arial, Helvetica, sans-serif;
@@ -165,4 +165,303 @@ div h2 img{
     width: 50px;
     height: 70px;
     padding-left: 20px;
+}
+.cardBox{
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr auto auto;
+    grid-gap: 20px;
+}
+.cardBox .card{
+    position: relative;
+    background: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    border-radius: 15px;
+}
+.cardBox .card .numbers{
+    position: relative;
+    font-size: 2em;
+    font-weight: 500;
+}
+.cardBox .card .cardName{
+    color: #999;
+    padding: 5px 0;
+}
+.cardBox .card .iconBox{
+    font-size: 2.5em;
+    color: #03a9f4;
+    width: 50px;
+    height: 60px;
+}
+.cardBox .card .iconBox img{
+    width: 50px;
+    height: 70px;
+}
+.cardBox .card .cardValue{
+    padding: 5px 0;
+
+}
+.cardBox .card .cardValue{
+    padding-top: 50px;
+}
+.cardBox .card1 .cardValue td i{
+    background-color:#03a9f4;
+    margin-right: 5px;
+}
+.cardBox .card1{
+    position: relative;
+    background: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    width: 70;
+    border-radius: 15px;
+}
+.cardBox .card1 .iconBox{
+    font-size: 2.5em;
+    color: #03a9f4;
+    width: 50px;
+    height: 60px;
+}
+.cardBox .card1 .numbers{
+    position: relative;
+    font-size: 2em;
+    font-weight: 500;
+}
+.cardBox .card1 .cardName{
+    color: #999;
+    padding: 5px 0;
+}
+.cardBox .card1 .cardValue td{
+    padding-right: 90px;
+}
+.cardBox .card1 .cardValue table{
+    padding-top: 10px;
+}
+.cardBox2{
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr auto auto;
+    grid-gap: 20px;
+}
+.cardBox2 .card3{
+    position: relative;
+    background: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    border-radius: 15px;
+}
+.cardBox2 .card3 .numbers1{
+    position: relative;
+    font-size: 2em;
+    font-weight: 500;
+}
+.cardBox2 .card3 .cardName1{
+    color: #999;
+    padding: 5px 0;
+}
+.cardBox2 .card3 .iconBox1{
+    color: #03a9f4;
+    width: 50px;
+    height: 60px;
+}
+.cardBox2 .card3 .iconBox1 img{
+    width: 50px;
+    height: 70px;
+}
+.cardBox2 .card3 .cardValue1{
+    padding: 5px 0;
+}
+.cardBox2 .card3 .cardValue1{
+    padding-top: 30px;
+}
+.cardBox2 .card2{
+    position: relative;
+    background: blue;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    width: 70;
+    border-radius: 15px;
+    opacity: 0.8;
+}
+.cardBox2 .card2 .iconBox1{
+    color: #03a9f4;
+    width: 70px;
+    height: 60px;
+}
+.cardBox2 .card2 .numbers1{
+    position: relative;
+    font-size: 2em;
+    font-weight: 500;
+}
+.cardBox2 .card2 .cardName1{
+    color: #999;
+    padding: 5px 0;
+}
+.cardBox2 .card2 .cardValue1 td{
+    padding-right: 90px;
+}
+.cardBox2 .card2 .cardValue1 table{
+    padding-top: 10px;
+}
+.cardBox2 .card2 .iconBox1 img{
+    width: 140px;
+    height: 140px;
+    padding-right: 55px;
+}
+.cardBox3{
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr auto auto;
+    grid-gap: 20px;
+}
+.cardBox3 .card5{
+    position: relative;
+    background: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    border-radius: 15px;
+}
+.cardBox3 .card5 .numbers2{
+    position: relative;
+    font-size: 2em;
+    font-weight: 500;
+}
+.cardBox3 .card5 .cardName2{
+    color: #999;
+    padding: 5px 0;
+}
+.cardBox3 .card5 .iconBox2{
+    color: #03a9f4;
+    width: 50px;
+    height: 60px;
+}
+.cardBox3 .card5 .iconBox2 img{
+    width: 50px;
+    height: 70px;
+}
+.cardBox3 .card5 .cardValue2{
+    padding: 5px 0;
+}
+.cardBox3 .card5 .cardValue2{
+    padding-top: 30px;
+}
+.cardBox3 .card4{
+    position: relative;
+    background: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    width: 70;
+    border-radius: 15px;
+}
+.cardBox3 .card4 .iconBox2{
+    color: #03a9f4;
+    width: 50px;
+    height: 30px;
+}
+.cardBox3 .card4 .numbers2{
+    position: relative;
+    font-size: 2em;
+    font-weight: 500;
+}
+.cardBox3 .card4 .cardName2{
+    color: #999;
+    padding: 5px 0;
+}
+.cardBox3 .card4 .cardValue2 td{
+    padding-right: 90px;
+}
+.cardBox3 .card4 .cardValue2 table{
+    padding-top: 10px;
+}
+.cardBox3 .card4 .iconBox2 img{
+    width: 130px;
+    height: 100px;
+    padding-right: 55px;
+    padding-top: 10px;
+}
+.cardBox3 .card5 .cardName23{
+    padding-top: 110px;
+    color: #999;
+}
+.cardBox3 .card5 .iconBox23 img{
+    width: 110px;
+    height: 140px;
+}
+.board{
+    width: 94%;
+    margin: 30px 0 30px 30px;
+    overflow: auto;
+    background: #fff;
+    border-radius: 8px;
+}
+.board img{
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.board h5{
+    font-weight: 600;
+    font-size: 14px;
+}
+.board p{
+    font-weight: 400;
+    font-size: 13px;
+    color: #787d8d;
+}
+.board .people{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: start;
+}
+table{
+    border-collapse: collapse;
+}
+tr{
+    border-bottom: 1px solid;
+}
+thead td{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 400;
+    background: #F9FAF8;
+    text-align: start;
+    padding: 15px;
+}
+tbody tr td{
+    padding: 10px 15px;
+}
+.active p{
+    background: #d7fada;
+    padding: 2px 10px;
+    display: inline-block;
+    border-radius: 40px;
+    color: #2b2b2b;
+}
+.edit a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #554cd1;
+    font-weight: 600;
 }
