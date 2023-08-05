@@ -8,11 +8,14 @@
     <title>Materialize</title>
 </head>
 <body>
-<section id="menu">
-<div class="scroll-bar">
+
+<div id="menu">
+<div class="scroll-bar" id="side-bar">
 <div class="wrapper">
     <div class="sidebar">
-        <h2><pre><img src="logo.png"><b>Materialize</b>  <i class="fa-solid fa-angles-left"></i></pre></h2>
+        
+        <h2><pre><img id="img" src="logo.png"><b>Materialize</b>  <button type="button" id ="clickButton"><i class="fa-solid fa-angles-left"></i></button></pre></h2>
+   
         <ul>
             <div class="item">
             <li><a class="sub-btn"><i class="fa-solid fa-house"></i>Dashboard
@@ -175,8 +178,9 @@
        </div>
        </div>
     </div> 
-</section>
-<section id="interface">
+</div>
+<div id="auto">
+<div id="interface">
     <div class="navigation">
         <div class="n1">
             <i class="fa-solid fa-magnifying-glass"></i>
@@ -212,7 +216,8 @@
         </div>
     </div>
     </div>
-    <div class="full">
+    <dir>
+    <div class="full" id="fill">
     <div class="cardBox">
         <div class="card1">
             <div>
@@ -255,7 +260,7 @@
             </div>
         </div>
     </div>
-</div>
+
     <div class="cardBox2">
         <div class="card2">
         <div>
@@ -357,6 +362,8 @@
     </div>
     </div>
     </div>
+</div>
+</dir>
     <div>
     <dir class="board">
     <table width="100%">
@@ -518,9 +525,8 @@
     </dir>
     </div>
     </div>
-</section>
+</div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-
 <script>
 $(document).ready(function(){
     $('.sub-btn').click(function(){
@@ -528,7 +534,37 @@ $(document).ready(function(){
         $(this).find('.fa-angle-right').toggleClass('rotate');
     });
 })
-</script>
 
+var interface = document.getElementById("interface");
+var clickButton = document.getElementById("clickButton");
+var menu = document.getElementById("menu");
+var sidebar = document.getElementById("side-bar");
+var fill = document.getElementById("fill");
+var auto = document.getElementById("auto");
+var img = document.getElementById("img");
+var item = document.getElementById("item");
+var clickCount = 0;
+
+clickButton.onclick = function() {
+  clickCount++;
+
+  if (clickCount % 2 === 1) {
+    interface.style.width = "1280px"; 
+    interface.style.background = "lightgrey";
+    sidebar.style.width = "70px";
+    img.style.opacity = "0";
+    interface.style.marginRight = "0";
+    item.style.opacity = "0";
+    } 
+    else {
+    sidebar.style.width = "100%";
+    interface.style.width = "100%";
+    interface.style.background = "#f0f0f0";
+    img.style.opacity = "1";
+  }
+};
+     
+
+</script>
 </body>
 </html>
